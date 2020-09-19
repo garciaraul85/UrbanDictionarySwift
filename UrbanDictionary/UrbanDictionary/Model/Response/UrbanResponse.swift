@@ -9,13 +9,12 @@ import Foundation
 import RxRetroSwift
 
 struct ErrorModel:HasErrorInfo, Codable {
-  
   var errorCode: Int?
   var errorDetail: String?
 }
 
 struct UrbanResponse:Codable {
-    let list: Array<Word>
+    let list: [Word]
 }
 
 struct Word: Codable {
