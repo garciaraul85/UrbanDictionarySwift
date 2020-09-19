@@ -38,15 +38,11 @@ class APIClient {
     }
     
     func fetchTerm(term: String) throws -> Observable<Result<UrbanResponse, ErrorModel>> {
-        
         let request = RequestModel(
             httpMethod: .get,
             path: "define",
             query: ["term" : term])
             .asURLRequest()
-        
-        print(request)
-        
         return caller.call(request)
     }
     

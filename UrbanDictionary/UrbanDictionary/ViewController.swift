@@ -19,8 +19,12 @@ class ViewController: UIViewController {
         let client = APIClient.shared
         // since it's an Observable, we just simply subscribe to it.
         do {
-            try client.fetchTerm(term: "Pokemon")
+            try client
+                .fetchTerm(term: "Pokemon")
+                .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .background))
+                .observeOn(MainScheduler.instance)
                 .subscribe(onNext: { result in
+                    print("isMain = \(Thread.isMainThread)")
                   if let posts = result.value {
                     // iterate all posts.
                     posts.list.forEach {word in
