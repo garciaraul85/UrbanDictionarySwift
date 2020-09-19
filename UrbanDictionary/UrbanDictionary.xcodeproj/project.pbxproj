@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D638F66C12CBC261C0F3F76 /* Pods_UrbanDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0E8A4C3A9C911D646F5CF /* Pods_UrbanDictionary.framework */; };
+		F8A81DE32515CDD4006C8511 /* UrbanResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DE22515CDD4006C8511 /* UrbanResponse.swift */; };
+		F8A81DE8251648A4006C8511 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DE7251648A4006C8511 /* ApiClient.swift */; };
 		F8B926ED2515928100B27073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926EC2515928100B27073 /* AppDelegate.swift */; };
 		F8B926EF2515928100B27073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926EE2515928100B27073 /* SceneDelegate.swift */; };
 		F8B926F12515928100B27073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926F02515928100B27073 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		605B0470A50CD7E41AD7A471 /* Pods-UrbanDictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanDictionary.release.xcconfig"; path = "Target Support Files/Pods-UrbanDictionary/Pods-UrbanDictionary.release.xcconfig"; sourceTree = "<group>"; };
 		7CB0E8A4C3A9C911D646F5CF /* Pods_UrbanDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrbanDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C631D5739475B732FC61B646 /* Pods-UrbanDictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrbanDictionary.debug.xcconfig"; path = "Target Support Files/Pods-UrbanDictionary/Pods-UrbanDictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A81DE22515CDD4006C8511 /* UrbanResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanResponse.swift; sourceTree = "<group>"; };
+		F8A81DE7251648A4006C8511 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		F8B926E92515928100B27073 /* UrbanDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B926EC2515928100B27073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B926EE2515928100B27073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F8A81DE12515CD78006C8511 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8A81DE625164840006C8511 /* Network */,
+				F8A81DE52515CE09006C8511 /* Response */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8A81DE52515CE09006C8511 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F8A81DE22515CDD4006C8511 /* UrbanResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F8A81DE625164840006C8511 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F8A81DE7251648A4006C8511 /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		F8B926E02515928100B27073 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +109,7 @@
 		F8B926EB2515928100B27073 /* UrbanDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				F8A81DE12515CD78006C8511 /* Model */,
 				F8B926EC2515928100B27073 /* AppDelegate.swift */,
 				F8B926EE2515928100B27073 /* SceneDelegate.swift */,
 				F8B926F02515928100B27073 /* ViewController.swift */,
@@ -206,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B926F12515928100B27073 /* ViewController.swift in Sources */,
+				F8A81DE32515CDD4006C8511 /* UrbanResponse.swift in Sources */,
+				F8A81DE8251648A4006C8511 /* ApiClient.swift in Sources */,
 				F8B926ED2515928100B27073 /* AppDelegate.swift in Sources */,
 				F8B926EF2515928100B27073 /* SceneDelegate.swift in Sources */,
 			);
