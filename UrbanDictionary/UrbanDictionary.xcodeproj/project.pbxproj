@@ -11,6 +11,7 @@
 		F8A81DE32515CDD4006C8511 /* UrbanResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DE22515CDD4006C8511 /* UrbanResponse.swift */; };
 		F8A81DE8251648A4006C8511 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DE7251648A4006C8511 /* ApiClient.swift */; };
 		F8A81DED2516867C006C8511 /* WordItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DEC2516867C006C8511 /* WordItemTableViewCell.swift */; };
+		F8A81DF32516EAD4006C8511 /* WordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DF22516EAD4006C8511 /* WordTableViewController.swift */; };
 		F8B926ED2515928100B27073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926EC2515928100B27073 /* AppDelegate.swift */; };
 		F8B926EF2515928100B27073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926EE2515928100B27073 /* SceneDelegate.swift */; };
 		F8B926F12515928100B27073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926F02515928100B27073 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		F8A81DE22515CDD4006C8511 /* UrbanResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanResponse.swift; sourceTree = "<group>"; };
 		F8A81DE7251648A4006C8511 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		F8A81DEC2516867C006C8511 /* WordItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItemTableViewCell.swift; sourceTree = "<group>"; };
+		F8A81DF22516EAD4006C8511 /* WordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewController.swift; sourceTree = "<group>"; };
 		F8B926E92515928100B27073 /* UrbanDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B926EC2515928100B27073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B926EE2515928100B27073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A81DEC2516867C006C8511 /* WordItemTableViewCell.swift */,
+				F8A81DF22516EAD4006C8511 /* WordTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				F8A81DE32515CDD4006C8511 /* UrbanResponse.swift in Sources */,
 				F8A81DE8251648A4006C8511 /* ApiClient.swift in Sources */,
 				F8B926ED2515928100B27073 /* AppDelegate.swift in Sources */,
+				F8A81DF32516EAD4006C8511 /* WordTableViewController.swift in Sources */,
 				F8A81DED2516867C006C8511 /* WordItemTableViewCell.swift in Sources */,
 				F8B926EF2515928100B27073 /* SceneDelegate.swift in Sources */,
 			);
