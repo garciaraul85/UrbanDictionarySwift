@@ -9,7 +9,7 @@ import UIKit
 import RxCocoa
 import RxSwift
 
-class ViewController: UIViewController {
+class UrbanDictionaryController: UIViewController {
     
     private let disposeBag = DisposeBag()
 

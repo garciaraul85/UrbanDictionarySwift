@@ -14,7 +14,7 @@
 		F8A81DF32516EAD4006C8511 /* WordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A81DF22516EAD4006C8511 /* WordTableViewController.swift */; };
 		F8B926ED2515928100B27073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926EC2515928100B27073 /* AppDelegate.swift */; };
 		F8B926EF2515928100B27073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926EE2515928100B27073 /* SceneDelegate.swift */; };
-		F8B926F12515928100B27073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926F02515928100B27073 /* ViewController.swift */; };
+		F8B926F12515928100B27073 /* UrbanDictionaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B926F02515928100B27073 /* UrbanDictionaryController.swift */; };
 		F8B926F42515928100B27073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B926F22515928100B27073 /* Main.storyboard */; };
 		F8B926F62515928300B27073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B926F52515928300B27073 /* Assets.xcassets */; };
 		F8B926F92515928300B27073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B926F72515928300B27073 /* LaunchScreen.storyboard */; };
@@ -31,7 +31,7 @@
 		F8B926E92515928100B27073 /* UrbanDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B926EC2515928100B27073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B926EE2515928100B27073 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8B926F02515928100B27073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8B926F02515928100B27073 /* UrbanDictionaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanDictionaryController.swift; sourceTree = "<group>"; };
 		F8B926F32515928100B27073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B926F52515928300B27073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B926F82515928300B27073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				F8A81DE12515CD78006C8511 /* Model */,
 				F8B926EC2515928100B27073 /* AppDelegate.swift */,
 				F8B926EE2515928100B27073 /* SceneDelegate.swift */,
-				F8B926F02515928100B27073 /* ViewController.swift */,
+				F8B926F02515928100B27073 /* UrbanDictionaryController.swift */,
 				F8B926F22515928100B27073 /* Main.storyboard */,
 				F8B926F52515928300B27073 /* Assets.xcassets */,
 				F8B926F72515928300B27073 /* LaunchScreen.storyboard */,
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B926F12515928100B27073 /* ViewController.swift in Sources */,
+				F8B926F12515928100B27073 /* UrbanDictionaryController.swift in Sources */,
 				F8A81DE32515CDD4006C8511 /* UrbanResponse.swift in Sources */,
 				F8A81DE8251648A4006C8511 /* ApiClient.swift in Sources */,
 				F8B926ED2515928100B27073 /* AppDelegate.swift in Sources */,
